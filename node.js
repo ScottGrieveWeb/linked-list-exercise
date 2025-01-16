@@ -1,5 +1,6 @@
-export class List {
-    constructor(head = null){
-        this.head = head;
+export class Node {
+    constructor(data) {
+        this.data = data;
+        this.next = null;
     }
 }

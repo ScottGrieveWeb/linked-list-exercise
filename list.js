@@ -48,4 +48,19 @@ export class List {
             node=node.next;
         }
     }
+    toString() {
+        // Start traversal from the head node
+        let node = this.head;
+        // Initialize an empty string to store the elements of the list
+        let str = "(";
+        // Traverse the list and concatenate each element to the string
+        while (node) {
+            str += node.data + ") -> (";
+            node = node.next;
+        }
+        // Append "NULL" to indicate the end of the list
+        str += "NULL)";
+        // Print the string containing the list elements
+        console.log(str);
+    }
 }

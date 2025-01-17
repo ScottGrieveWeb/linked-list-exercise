@@ -33,4 +33,7 @@ export class List {
     size(){
         return this.length;
     }
+    getFirst(){
+        return this.head;
+    }
 }

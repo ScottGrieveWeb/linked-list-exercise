@@ -20,4 +20,10 @@ export class List {
             currentNode.next = node;
         }
     }
+    prepend(value){
+        let node = new Node(value);
+
+        node.next = this.head;
+        this.head = node;
+    }
 }

@@ -14,6 +14,7 @@ list.append(1);
 console.log(list);
 // console.log(list.size());
 console.log(list.getFirst());
+console.log(list.getLast());
 
 list.prepend(0);
 
